@@ -1,0 +1,16 @@
+specVersion: "2.1"
+type: application
+metadata:
+  name: my-ui5-app
+
+resources:
+  configuration:
+    paths:
+      webapp: webapp
+
+framework:
+  name: OpenUI5
+  version: 1.127.0   # or latest
+  libraries:
+    - name: sap.ui.core
+    - name: sap.m

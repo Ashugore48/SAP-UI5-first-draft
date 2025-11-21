@@ -1,0 +1,10 @@
+<mvc:View
+    controllerName="myui5app.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page title="Hello UI5">
+        <content>
+            <Text text="Welcome to your UI5 app!" />
+        </content>
+    </Page>
+</mvc:View>
